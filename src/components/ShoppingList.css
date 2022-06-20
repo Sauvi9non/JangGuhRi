@@ -1,0 +1,15 @@
+.shoppinglist {
+    background-color:rgb(99, 99, 99);
+}
+
+.shoppinglist__title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.shoppinglist__title{
+    padding: 0.5rem;
+    font-weight: 900;
+    background-color: rgb(255, 245, 152);
+}

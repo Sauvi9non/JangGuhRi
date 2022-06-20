@@ -1,0 +1,25 @@
+.shoppinglist-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(99, 99, 99);
+}
+.shoppinglist-form__control {
+
+    color: white;
+}
+
+.shoppinglist-form__control label{
+    margin-right: 10px;
+    color: white;
+}
+
+.shoppinglist-form__control input{
+    background-color: lemonchiffon;
+}
+
+.shoppinglist-form__control button {
+    background-color: lemonchiffon;
+    border-radius: 12px;
+    border-color: white;
+}
