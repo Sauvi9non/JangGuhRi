@@ -40,9 +40,17 @@ function App() {
     console.log({ item });
   };
 
+  const GetRidOfThis = (targetID) => {
+    /*item에서  값 삭제*/
+    console.log("target이 사라집니다.");
+    console.log(item);
+    const a = item.filter( item => (item.id!==targetID));
+    setItem(a);
+    
+  }
   return (
     <div className="shoppinglist">
-      <ShoppingList _items={item} />
+      <ShoppingList _items={item} onGetRidOf={GetRidOfThis}/>
       <NewShoppingList onAddItem={addItemHandler} />
     </div>
   );
